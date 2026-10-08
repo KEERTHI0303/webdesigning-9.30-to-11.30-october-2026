@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cl.css">
+</head>
+<body>
+    <h1>hello hi</h1>
+    <p>Lorem ipsum <b>i am in blod </b> <strong>like bold</strong> dolor sit amet consectetur adipisicing elit. Vero dolor, hic cum adipisci perspiciatis harum officia? Necessitatibus dolorem accusantium sequi.</p>
+ <i>keethi</i> keerthi <em>salem</em> <address>salem</address> 
+<u>underline</u>    <ins>like u tag</ins>
+<strike>livewire</strike> <del>livewire</del>
+<big>hello</big><small>hello</small> <cite>location</cite>
+log <sub>10</sub>   2 <sup>5</sup> <mark>i am in yellow colour</mark>
+
+<!-- <q>Lorem ipsum dolor sit amet.</q>
+<abbr title="central processing unit">cpu</abbr>
+<h1 title="greetings" >hello</h1>
+<bdo dir="ltr">hello</bdo>
+<bdo dir="rtl">priya</bdo> -->
+<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero eligendi at a id minus sint suscipit tempore architecto pariatur ut quo, iste libero autem. Et aspernatur voluptate libero eaque sit recusandae error dolorem obcaecati eum asperiores labore, earum quis eligendi repudiandae praesentium ex fugit ipsam ullam saepe quae nihil magni!</blockquote>
+<!-- <cite>location</cite> -->
+
+
+
+
+
+</body>
+</html>
+
+
+  ---------------------------------------------
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cl.css">
+
+    <style>
+       
+        /* h1{
+            background-color: rgba(138, 22, 22, 0.556);
+            color: rgb(256, 256, 256);
+        } */
+        h2{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: red;">hello every one</h1>
+    <h1>i am second h1</h1>
+    <h1>bcbxbbvc</h1>
+    <h2>welcome</h2>
+</body>
+</html>
+
+<!--  <style>
+        body{
+            background-color: chocolate;
+        }
+        h1{
+            background-color: rgba(0, 0, 0, 0.102);
+            color: rgb(256, 256, 256);
+        }
+        h2{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>hello every one</h1>
+    <h2>welcome</h2>
+</body>
+</html> -->
+
+      ----------------------------------------------------
+
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="a.css">
+    <style>
+        body{
+            background-color: chocolate;
+        }
+        h1{
+            background-color: pink;
+            padding: 50px;
+            margin: 20px;
+
+
+        }
+        div{
+            height: 50px;
+            width: 50px;
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div>hj</div>
+    <div>jh</div>
+    <div>hj</div>
+    <div>jh</div>
+    <h1 style="background-color: rgb(95, 79, 176);">hi keerthi</h1>
+</body>
+</html>
