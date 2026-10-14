@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 1px solid black;
+            /* border-collapse: collapse; */
+           
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            
+        }
+        tr{
+            background-color: lightblue;
+        }
+        #a{
+            background-color: lightgreen;
+        }
+        #b{
+            background-color: lightyellow;
+        }
+        .c{
+            background-color: lightpink;
+        }
+        #d{
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <table  cellpadding="40px" cellspacing="10px">
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>COURSE</th>
+                <th>AGE</th>
+                <th>address</th>
+            </tr>
+        </thead>
+        <tbody  cellpadding="50px">
+            <tr id="a">
+                <td>Data 1</td>
+                <td>Data 2</td>
+                <td>Data 3</td>
+                <td>Data 4</td>
+            </tr>
+            <tr id="b">
+                <td>keerthi</td>
+                <td rowspan="3">python</td>
+                <td>20</td>
+                <td>salem</td>
+            </tr>
+            <tr class="c">
+                <td>hari</td>
+                <!-- <td>python</td> -->
+                <td>26</td>
+                <td>salem</td>
+            </tr>
+            <tr id="d">
+                <td>abi</td>
+                <!-- <td>python</td> -->
+                <td colspan="3">30</td>
+                <!-- <td>trichy</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">sunday to friday </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
