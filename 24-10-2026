@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./day2.css">
+ <style>
+        form{
+            background-color: rgb(255, 29, 29);
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <fORM action="./demo.html">
+        <fieldset title="form"> 
+            <legend> application form </legend>
+        <pre>
+        
+        <label for="">name</label>     <input type="text" placeholder="enter the name"> <br>
+        <label for="">address</label>  <input type="text" placeholder="enter the address"> <br>
+        <label for="">age</label>      <input type="number" placeholder="enter the age"> <br>
+        <label for="">gender</label>   <input type="radio" name="name"  id=""><label for="">male</label><input type="radio" name="name" id=""><label for="">female</label> <br>
+        <label for="">email</label>    <input type="email">
+        <label for="">image</label>     <input type="image" width="100px" src="./program works.png" alt="">   
+       <input type="checkbox" name="dept" id="">ece <input type="checkbox" name="" id="">eee
+       <input type="color" name="colour" id="">
+       <input type="date" name="" id=""> 
+    <input type="datetime">
+    <input type="datetime-local" name="" id="">
+    <input type="file" name="addharcard" id="">
+    <input type="month" name="month_of_apply" id="">
+    <input type="password" name="" id="">
+    <input type="range" name="" id="">
+    <input type="search" name="" id="">
+    <input type="tel" name="" id="">
+    <input type="time" name="" id="">
+    <input type="url" name="" id="">
+    <input type="week" name="" id="">
+    <input type="reset" value="reset">
+    <button type="submit">submit</button>
+    <input type="range" name="" id="">
+
+    </pre>
+     </fieldset>
+    </fORM>
+    <iframe width="260" heigth="115" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d7923.827887128036!2d78.12639541854071!3d11.668228851900746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3babf046b1106e9f%3A0x7915b2bdfb242492!2sSalem%20New%20Bus%20Stand%2C%20Angammal%20Colony%2C%20Salem%2C%20Tamil%20Nadu%20636004!3m2!1d11.6690603!2d78.13931099999999!4m5!1s0x3babf15bc3c77f21%3A0xbd2551badf759a4b!2sLivewire%20-%20Software%20Training%20Institute%20in%20Salem%20%7C%20Web%20Development%20%7C%20Data%20Science%20%7C%20AI%20ML%20Developer%20%7C%20Cyber%20Security%20Course%2C%20258%2C2nd%20Floor%2C%20Dwaraka%20Center%2C%20New%20Bus%20Stand%20Rd%2C%20Ram%20Nagar%2C%20Meyyanur%2C%20Salem%2C%20Tamil%20Nadu%20636004!3m2!1d11.6681448!2d78.1327242!5e0!3m2!1sen!2sin!4v1792818377201!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+   <iframe width="260" height="215" src="https://www.youtube.com/embed/3YHO81QWQmU?si=aFpKIV0tDp8c19tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus libero sapiente enim unde, quod ipsa hic? Impedit, numquam molestiae pariatur quaerat omnis atque, suscipit veniam ducimus, repellendus exercitationem nesciunt totam!</p>
+</body>
+</html>
+
+
+-------------------------------------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./day2.css">
+    <style>
+        /* internal css */
+        /* inline -> internal -> external */
+        p{
+            background-color: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <img width="200px" src="./ChatGPT Image Sep 9, 2026, 04_07_02 PM.png" alt="">
+    <h1 id="h1_id" class="h1_cl">hello</h1>
+    <h4 id="h4_id" class="h4_cl" >hi</h4>
+  <!-- inline css -->
+    <p style="background-color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eum alias iure aperiam repudiandae veniam at, possimus atque excepturi odio.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, repudiandae!</p>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYLE>
+        H1{
+            background-color: aqua;
+        }
+    </STYLE>
+</head>
+<body>
+    <!-- INLINE STYLE WITHIN TAG CSS -->
+    <h1 style="background-color: blue;">HELLO</h1>
+    <H1>WELCOME</H1>
+    <H1>GREETINGS</H1>
+</body>
+</html>
+
+---------------------------------------------
+CSS
+
+
+/* external css */
+
+/* id -> class -> element (h1) */
+/* .h1_cl{
+    background-color: chocolate;
+}
+h1{
+    background-color: chartreuse;
+}
+#h1_id{
+    background-color: blueviolet;
+}
+
+h4{
+    border: 2px solid red;
+}
+.h4_cl{
+    border: 6px solid rgb(164, 61, 216);
+}
+#h4_id{
+    border: 6px solid rgb(39, 204, 149);
+} */
+/* id-> cl -> element */
+
+*{
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1,p,img{
+    color: rgb(224, 214, 219);
+}
+
+h1:hover{
+    background-color: cadetblue;
+    color: brown;
+}
+
+p{
+    background-color: chocolate;
+}
+p:hover{
+    background-color: black;
+}
+--------------------------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        body{
+            background-image: url(./ChatGPT\ Image\ Sep\ 9\,\ 2026\,\ 04_07_02\ PM.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        background-attachment:fixed;
+   
+        }
+    </style>
+</head>
+<body><i class="fa-solid fa-bicycle fa-canvas-roomy" style="color: hsla(225, 84%, 15%, 0.558);"></i>
+    <i class="fa-solid fa-house"></i>
+    <i class="fa-mosaic fa-solid fa-alarm-clock fa-shake"></i>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae nesciunt autem fugiat voluptatem, cum sint laudantium, ipsa, quibusdam dignissimos hic atque nobis omnis. Et reprehenderit cumque amet eum quasi error optio itaque officiis distinctio corrupti, voluptatem beatae inventore accusamus facere tenetur, aliquam harum! Fugiat eum a animi est pariatur culpa illum repellat fuga dolore minus fugit voluptatum cum at facilis odit optio, nostrum neque dolor veritatis eligendi itaque cumque iure. Necessitatibus sequi commodi minima optio laboriosam dolorum et itaque placeat voluptates rem quia, nam inventore esse laborum eveniet id nemo praesentium error non debitis nobis architecto voluptate vero adipisci? Eveniet temporibus dolores doloribus obcaecati quidem! Recusandae, omnis temporibus facilis natus impedit maxime ullam nemo porro voluptates tempore. Nulla sapiente, et praesentium voluptatum ipsam in molestias. Voluptates consectetur deserunt itaque odio maiores asperiores ab voluptatem? Est alias ipsa culpa temporibus fuga hic ducimus neque enim laborum iure consectetur, dignissimos magni tempora velit fugiat at eaque sapiente, accusantium error unde vitae dolores expedita veritatis? Sint a hic iste autem quas, corrupti debitis impedit porro aut beatae, odit, nesciunt similique placeat necessitatibus sit ratione neque! Est tempora nulla ratione, ipsum libero minus necessitatibus quo id ad error perferendis qui? A temporibus eos porro. Voluptatibus, dolorem quam iste officiis ipsa aperiam commodi eaque impedit debitis, ea laborum eius sequi saepe, ipsam aspernatur sint nostrum necessitatibus placeat? Itaque quas mollitia enim, tenetur deleniti animi temporibus aperiam veniam repellendus, asperiores vel officia labore quis accusantium perspiciatis voluptates. Impedit eos repudiandae esse deleniti rem ullam! Quo ipsa facilis veniam iste possimus, autem in, ad porro inventore dolores eligendi molestias consectetur mollitia ducimus minus repellat nostrum nam tempore similique, quibusdam aliquid maiores enim necessitatibus repellendus. Ipsam, voluptate. Quo quasi accusamus repellendus ipsum quas! Repellat sapiente veniam libero quae, iste commodi eligendi! Error similique exercitationem rem, esse obcaecati repudiandae dicta iusto itaque sed quos aliquam earum, debitis fugit quod eius consequuntur ipsum harum illo voluptatibus. Aspernatur inventore omnis temporibus, optio non, repellendus eveniet rem explicabo, numquam accusamus quae! Aperiam delectus ut velit. Rerum fugit, exercitationem ab veniam assumenda itaque sed vero quam voluptatum ipsum possimus quos ipsa quod eos sapiente perspiciatis ad provident nam incidunt? Vero, alias obcaecati exercitationem voluptatum optio laborum molestias mollitia maxime facilis nulla cum, atque consectetur eaque magni natus deserunt, minus ipsam ad quam nemo? Blanditiis, obcaecati eligendi! At numquam tempora quam fugiat esse. Ratione, suscipit? Veniam, ullam? Officia mollitia minus quae eveniet, quaerat pariatur dicta reprehenderit nisi est quia consectetur fuga facilis! Quia odio, quam explicabo dicta voluptate, eligendi necessitatibus neque impedit sequi exercitationem doloribus, labore excepturi. Mollitia nam cumque cupiditate accusantium. Suscipit, placeat maiores numquam unde quaerat voluptatem quas. Eveniet accusamus sequi illo eos repellat unde cupiditate perspiciatis asperiores, minima placeat porro? Labore porro autem fuga cum tempora in libero distinctio eius atque nobis quis perspiciatis tempore ipsam delectus blanditiis ex animi voluptates quasi, reiciendis facere cumque quas laborum! Doloribus culpa, voluptas minima dolore unde qui maxime magnam, fugit fugiat quidem voluptatibus vel dolorum aliquam laboriosam inventore molestias velit modi. Maxime, est dolore.</p>
+</body>
+</html>
+
+--------------------------------------------------------------------------------------------------
+
