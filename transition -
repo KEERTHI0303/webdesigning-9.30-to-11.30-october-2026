@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            position: relative;
+        }
+        nav ul ul{
+            display: none;
+            position: absolute;
+        }
+        nav li:hover>ul{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li ><a href="">home</a>
+                <UL>
+                    <li>file</li>
+                    <li>open</li>
+                    <li>save</li>
+                </UL>
+            </li>
+            <li>action</li>
+            <li>contact</li>
+            <li>help</li>
+            <li>service</li>
+        </ul>
+    </nav>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: width 5s,height 2s,transform 10s;
+            transition-delay: 2s;
+            transition-duration: 50s;
+           transition-property: all;
+           transition-timing-function:ease-in-out;
+        }
+        div:hover{
+            width: 300px;
+            height: 50px;
+             transform:rotate(360deg) ;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html> -->
+<!-- <!DOCTYPEhtml>
+<htmllang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport"content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <style>
+  h1{
+   /* width: 100px; */
+   /* height: 150px; */
+   /* background-color: rgb(14, 61, 248); */
+   /* border-radius: 50% / 90px 90px 60px 60px; */
+   position: absolute;
+   left: 10px;
+   animation-name: egg;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-play-state: running;
+  }
+
+  @keyframes egg
+  {
+   
+   50%{
+    left: 150px;
+    /* transform:rotatez(720deg); */
+     transform: scale(1.8); 
+
+
+   }
+  }
+ </style>
+</head>
+<body>
+ <img src="./134072730746559760.jpg" width="100px" height="100px" alt="">
+<h1>keerthi</h1>
+</body>
+</html> -->
+
+
+<!-- YPEhtml>
+<htmllang="en">
+<head>
+ <title>Document</title>
+ <style>
+  .a
+  {
+   background-color: red;
+   left: 10px;
+   top: 10px;
+   padding: 50px; 
+   position:absolute;
+   border-radius: 50%;
+   animation-name: ball;
+   animation-duration: 4s; 
+   animation-iteration-count: 1; 
+   box-shadow: -5px -5px 6px black; 
+  }
+  @keyframes ball
+  {
+   0%
+   {
+    box-shadow: -5px-5px 5px black;
+   }
+   25%
+   {
+    background-color: yellow;
+    left: 150px;
+    top: 10px;
+   }
+   50%
+   {
+    background-color: green;
+    left: 150px;
+    top: 150px;
+   }
+   75%
+   {
+    left: 10px;
+    top: 150px;
+    background-color: blue;
+   }
+  }
+ </style>
+</head>
+<body>
+ <div class="a">
+    wait
+ </div>
+</body>
+</html> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            animation-name: ani1;
+            animation-duration: 10s;
+            /* animation-delay: 5s; */
+            /* animation-timing-/function: ease-out; */
+            animation-iteration-count:2;
+            animation-fill-mode: forwards;
+            animation-play-state: running;
+            animation-direction: alternate;
+        }
+  div:hover{
+    animation-play-state: paused;
+  }
+        @keyframes ani1 {
+            20%{
+                margin-left: 100px;
+                background-color: brown;
+            }
+              40%{
+                margin-left: 200px;
+                background-color: rgb(87, 27, 152);
+               
+            }
+              60%{
+                margin-right: 100px;
+                background-color: rgb(31, 107, 28);
+            }
+              80%{
+                margin-top: 100px;
+                background-color: brown;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html> -->
