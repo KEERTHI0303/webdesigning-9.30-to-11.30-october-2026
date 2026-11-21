@@ -1,0 +1,41 @@
+<p id="a"></p>
+  <script>
+//    let l=window.navigator.language;
+//   document.getElementById('a').innerHTML=l;
+   let l=window.navigator.appVersion;
+   document.getElementById('a').innerHTML=l;
+    document.write('Total Height:'+screen.availHeight,"<br>" )
+ document.write('Total Width:'+screen.availWidth)
+ document.write(location.origin+"<br>");
+ document.write(location.host+"<br>");
+ document.write(location.port+"<br>");
+ document.write(location.hostname+"<br>");
+ document.write(location.protocol+"<br>");
+   </script>
+
+
+
+
+
+ <!-- <input type="button"value="forward"onclick="f()">
+  <input type="button"value="back"onclick="b()">
+  <input type="button"value="go"onclick="g()">
+  <a href="/home.html">Youtube</a>
+        <script>
+            // a=confirm("enter the value");
+            // prompt("enter the value","welcome")
+            // alert("invalid")
+    function f()
+    {
+      window.history.forward();
+    }
+    function b()
+    {
+      window.history.back();
+    }
+    function g()
+    {
+      window.history.go(2);
+    }
+  </script> -->
+        
