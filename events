@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="a()">
+  <script>
+    h=window.outerHeight;
+    w=window.outerWidth;
+    document.write(h,"<br>",w)
+     h1=window.innerHeight;
+    w1=window.innerWidth;
+    document.write(h1,"<br>",w1)
+  </script>
+
+
+
+    <!-- <h1>Navaneet</h1>
+  <p>Loremipsumdolor sit ametconsecteturadipisicingelit. Dicta, rerum.</p>
+</body>
+ <script>
+   function a()
+   {
+    alert('Page is loaded');
+   }
+ </script> -->
+      <!-- <img id="ab" src="./img1.webp" alt="" width="90px"> -->
+<!-- <p id="ab"></p>
+      <button onblur="m">blur</button>
+      <script>
+        function m(){
+           document.getElementById("ab").innerHTML="hello";
+        }
+      </script> -->
+
+     <!-- <form onsubmit="fun()">
+            <input type="text"name="fname"placeholder="First name">
+    <br><br>
+            <input type="text"name="lname"placeholder="Last name">
+    <br><br>
+            <input type="submit">
+  </form>
+  <script>
+    function fun(c) {
+      alert("The form was submitted successfully")
+    }
+  </script> -->
+<!-- <input type="text"onfocus="fun(this.id)"id="f.name"placeholder="Fist name"><br><br>
+ <input type="text"onfocus="fun(this.id)"id="l.name"placeholder="Last name">
+ 
+ <script>
+  function fun(s) {
+   document.getElementById(s).style.backgroundColor = "lightblue"
+  }
+ </script> -->
+
+
+
+<!-- <input id="a" type="text" onkeydown="fun()">
+<input id="a" type="text" onkeyup="fun()">
+   <button  id="a" onkeypress="fun()">click</button>
+   <p id="a1"></p>
+   <script>
+     function demo(){
+        document.getElementById("a1").innerHTML="hello";
+        document.getElementById("a1").style.color="red";
+        
+     }
+
+     function fun() {
+      let a = document.getElementById("a");
+    //   document.write(a);
+      a.value = a.value.toUpperCase();
+    }
+   </script> -->
+
+
+
+
+
+
+    <!-- <button onclick="abc()">hello</button>
+    <input type="text" onchange="fun()" name="user">
+    <button onmouseenter="abc()" onmouseleave="xyz()"> click me</button>
+  <p id="ans"></p>
+  <script>
+   function abc()
+   {
+        document.getElementById("ans").innerHTML="hello world";
+   }
+   function xyz()
+   {
+        document.getElementById("ans").innerHTML="";
+   }
+   function fun()
+   {
+        document.getElementById("ans").innerHTML="abc".toUpperCase();
+   }
+  </script> -->
+</body>
+</html>
